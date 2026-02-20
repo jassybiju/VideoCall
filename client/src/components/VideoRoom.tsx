@@ -12,7 +12,7 @@ const VideoRoom = () => {
   );
 
   useEffect(() => {
-    const ws = new WebSocket("wss://salty-paths-fry.loca.lt");
+    const ws = new WebSocket("wss://2a16-117-221-156-47.ngrok-free.app");
 
     ws.onopen = async () => {
       console.log("Connected to signaling server");

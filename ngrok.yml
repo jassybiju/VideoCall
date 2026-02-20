@@ -1,0 +1,7 @@
+tunnels:
+  websocket-tunnel:
+    proto: http            # Tunnel type: http (works for WebSocket upgrades too)
+    addr: 5000             # Local port where your WebSocket server is running
+    bind_tls: true         # Terminate HTTPS at the tunnel (external clients use wss://)
+    # Optional: you can specify a hostname if you have a custom domain
+    # hostname: myapp.example.com
